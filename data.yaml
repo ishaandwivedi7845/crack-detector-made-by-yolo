@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['diagonal', 'hairline', 'vertical']
+
+roboflow:
+  workspace: golf-fn1mq
+  project: structural-crack-severity
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/golf-fn1mq/structural-crack-severity/dataset/3
